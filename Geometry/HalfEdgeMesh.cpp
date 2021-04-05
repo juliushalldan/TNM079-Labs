@@ -28,7 +28,7 @@ bool HalfEdgeMesh::AddFace(const std::vector<glm::vec3>& verts) {
     // Connect inner ring
     e(hePair1.first).next = e(hePair3.first).prev = hePair2.first;
     e(hePair2.first).next = e(hePair1.first).prev = hePair3.first;
-    e(hePair3.first).next = e(hePair2.first).prev = hePair1.first;ahsdgaskdjg
+    e(hePair3.first).next = e(hePair2.first).prev = hePair1.first;
     
     // Finally, create the face, don't forget to set the normal (which should be
     // normalized)
