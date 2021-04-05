@@ -1,6 +1,6 @@
-^C:\USERS\MECKBOOK\DOCUMENTS\!TNM079\LABS\TNM079-LABS\CMAKELISTS.TXT
+^C:\USERS\MECKBOOK\DOCUMENTS\!TNM079\TNM079-LABS\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MeckBook/Documents/!TNM079/Labs/TNM079-Labs -BC:/Users/MeckBook/Documents/!TNM079/Labs/TNM079-Labs --check-stamp-file C:/Users/MeckBook/Documents/!TNM079/Labs/TNM079-Labs/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs -BC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs --check-stamp-file C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

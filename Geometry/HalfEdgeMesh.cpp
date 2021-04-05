@@ -215,13 +215,13 @@ std::vector<size_t> HalfEdgeMesh::FindNeighborVertices(size_t vertexIndex) const
 
     // Add your code here
     
-    size_t temp = vertexIndex;
+    size_t temp = v(vertexIndex).edge;
     do {
         
         oneRing.push_back(e(e(temp).next).vert);
         temp = e(e(e(temp).next).next).pair;
 
-    } while (temp != vertexIndex);
+    } while (temp != v(vertexIndex).edge);
 
     return oneRing;
 }
@@ -311,7 +311,7 @@ glm::vec3 HalfEdgeMesh::VertexNormal(size_t vertexIndex) const {
     // Add your code here
     std::vector<size_t> faces = FindNeighborFaces(vertexIndex);
     for (int i = 0; i < faces.size(); i++) {
-        n += faces[i];
+        n += f(faces[i]).normal;
     }
     n /= faces.size();
     return n;
