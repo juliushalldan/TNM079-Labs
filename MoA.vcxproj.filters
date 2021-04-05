@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\DecimationMesh.cpp">
+      <Filter>Decimation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\QuadricDecimationMesh.cpp">
+      <Filter>Decimation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\SimpleDecimationMesh.cpp">
+      <Filter>Decimation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Fluid\FluidSolver.cpp">
+      <Filter>Fluid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\HalfEdgeMesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Mesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SimpleMesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\LineStrip.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Cube.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Implicit.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\ImplicitMesh.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Quadric.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SignedDistanceSphere.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Sphere.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SphereFractal.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\FrameMain.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLAxis.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLGridPlane.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLObject.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLViewer.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\ScalarCutPlane.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\VectorCutPlane.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\FluidVoxelCutPlane.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSet.cpp">
+      <Filter>Levelset</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSetGrid.cpp">
+      <Filter>Levelset</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSetOperator.cpp">
+      <Filter>Levelset</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\TrilinearInterpolator.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\AdaptiveLoopSubdivisionMesh.cpp">
+      <Filter>Subdivision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\LoopSubdivisionMesh.cpp">
+      <Filter>Subdivision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\UniformCubicSpline.cpp">
+      <Filter>Subdivision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\UniformCubicSplineSubdivisionCurve.cpp">
+      <Filter>Subdivision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\BlackWhiteColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ColorMapFactory.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GLObjectPlayback.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GrayColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GreenRedColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Heap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\HotColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\HSVColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\IsoContourColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\JetColorMap.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\MarchingCubes.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ObjIO.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\trackball.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Console.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\main.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\DecimationInterface.h">
+      <Filter>Decimation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\DecimationMesh.h">
+      <Filter>Decimation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\QuadricDecimationMesh.h">
+      <Filter>Decimation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\SimpleDecimationMesh.h">
+      <Filter>Decimation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Fluid\FluidSolver.h">
+      <Filter>Fluid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Geometry.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\HalfEdgeMesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Mesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SimpleMesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\LineStrip.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Bbox.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\CSG.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Cube.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Implicit.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\ImplicitGradientField.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\ImplicitMesh.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\ImplicitValueField.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Quadric.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SignedDistanceSphere.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Sphere.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SphereFractal.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\FrameMain.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLAxis.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLCamera.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLGridPlane.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLObject.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLViewer.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\ScalarCutPlane.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\VectorCutPlane.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\FluidVoxelCutPlane.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSet.h">
+      <Filter>Levelset</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSetGrid.h">
+      <Filter>Levelset</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSetOperator.h">
+      <Filter>Levelset</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorAdvect.h">
+      <Filter>Levelset</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorDilateErode.h">
+      <Filter>Levelset</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorMeanCurvatureFlow.h">
+      <Filter>Levelset</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorMorph.h">
+      <Filter>Levelset</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorReinitialize.h">
+      <Filter>Levelset</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\ConjugateGradient.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\ConstantVectorField.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\Function3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\TrilinearInterpolator.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\Volume.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\VortexVectorField.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\AdaptiveLoopSubdivisionMesh.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\LoopSubdivisionMesh.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\StrangeSubdivisionMesh.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\Subdivision.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\UniformCubicSpline.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\UniformCubicSplineSubdivisionCurve.h">
+      <Filter>Subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\BitMask3D.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\BlackWhiteColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ColorMapFactory.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GLObjectPlayback.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GrayColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GreenRedColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Heap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\HotColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\HSVColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\IsoContourColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\JetColorMap.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\MarchingCubes.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\MarchingCubesTable.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ObjIO.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Stopwatch.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\trackball.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Console.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Decimation">
+      <UniqueIdentifier>{3E74630F-1F67-39AE-860E-7A70BFE354AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fluid">
+      <UniqueIdentifier>{F27F8529-30D1-327C-B1EF-2AE1430D9541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{C8BD5081-6CA5-3D7A-ABA5-4B3CE8104090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{5FA36D98-7000-3F1A-8999-7FE14E087708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levelset">
+      <UniqueIdentifier>{65578A84-A450-33B7-A957-F6E21613F92F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{DB43FC61-2E54-32B8-B710-80B2FDE423A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subdivision">
+      <UniqueIdentifier>{F9F8BD47-1196-3002-9682-C28C7D698667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{98E5DC8B-4097-3CA0-B860-B6EA14C912E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05FCF00D-3C86-300C-AF38-803995F56D2A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>MoA</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MoA.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MoA.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MoA.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MoA.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">MoA</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>VC++\wxWidgets\lib\vc_lib\wxbase28d.lib;VC++\wxWidgets\lib\vc_lib\wxmsw28d_core.lib;VC++\wxWidgets\lib\vc_lib\wxmsw28d_gl.lib;VC++\wxWidgets\lib\vc_lib\wxpngd.lib;VC++\wxWidgets\lib\vc_lib\wxtiffd.lib;VC++\wxWidgets\lib\vc_lib\wxjpegd.lib;VC++\wxWidgets\lib\vc_lib\wxzlibd.lib;VC++\wxWidgets\lib\vc_lib\wxregexd.lib;VC++\wxWidgets\lib\vc_lib\wxexpatd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;VC++\freeglut\lib\freeglut_static.lib;VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;VC++\freeglut\lib\freeglut_static.lib;VC++\freeglut\lib\freeglut_staticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/bin/Debug/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/bin/Debug/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>VC++\wxWidgets\lib\vc_lib\wxbase28.lib;VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;VC++\wxWidgets\lib\vc_lib\wxpng.lib;VC++\wxWidgets\lib\vc_lib\wxtiff.lib;VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;VC++\wxWidgets\lib\vc_lib\wxzlib.lib;VC++\wxWidgets\lib\vc_lib\wxregex.lib;VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;VC++\freeglut\lib\freeglut_static.lib;VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;VC++\freeglut\lib\freeglut_static.lib;VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/bin/Release/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/bin/Release/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>VC++\wxWidgets\lib\vc_lib\wxbase28.lib;VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;VC++\wxWidgets\lib\vc_lib\wxpng.lib;VC++\wxWidgets\lib\vc_lib\wxtiff.lib;VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;VC++\wxWidgets\lib\vc_lib\wxzlib.lib;VC++\wxWidgets\lib\vc_lib\wxregex.lib;VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;VC++\freeglut\lib\freeglut_static.lib;VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;VC++\freeglut\lib\freeglut_static.lib;VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/bin/MinSizeRel/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/bin/MinSizeRel/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAB1;LAB2;LAB3;LAB4;LAB5;LAB6;FREEGLUT_STATIC;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\freeglut\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\glew\include;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\.\VC++\glm;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\lib\vc_lib\msw;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\VC++\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>VC++\wxWidgets\lib\vc_lib\wxbase28.lib;VC++\wxWidgets\lib\vc_lib\wxmsw28_core.lib;VC++\wxWidgets\lib\vc_lib\wxmsw28_gl.lib;VC++\wxWidgets\lib\vc_lib\wxpng.lib;VC++\wxWidgets\lib\vc_lib\wxtiff.lib;VC++\wxWidgets\lib\vc_lib\wxjpeg.lib;VC++\wxWidgets\lib\vc_lib\wxzlib.lib;VC++\wxWidgets\lib\vc_lib\wxregex.lib;VC++\wxWidgets\lib\vc_lib\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;VC++\freeglut\lib\freeglut_static.lib;VC++\freeglut\lib\freeglut_staticd.lib;opengl32.lib;glu32.lib;msvcrt.lib;msvcmrt.lib;winmm.lib;comctl32.lib;oleacc.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;VC++\freeglut\lib\freeglut_static.lib;VC++\freeglut\lib\freeglut_staticd.lib;msvcrt.lib;msvcmrt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/bin/RelWithDebInfo/MoA.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/bin/RelWithDebInfo/MoA.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs -BC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs --check-stamp-file C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMake\FindwxWidgets.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeCCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeSystem.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Fluid\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs -BC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs --check-stamp-file C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMake\FindwxWidgets.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeCCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeSystem.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Fluid\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs -BC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs --check-stamp-file C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMake\FindwxWidgets.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeCCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeSystem.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Fluid\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs -BC:/Users/MeckBook/Documents/!TNM079/TNM079-Labs --check-stamp-file C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMake\FindwxWidgets.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeCCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\3.19.2\CMakeSystem.cmake;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Fluid\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\CMakeLists.txt;C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\DecimationInterface.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\DecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\DecimationMesh.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\QuadricDecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\QuadricDecimationMesh.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\SimpleDecimationMesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Decimation\SimpleDecimationMesh.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Fluid\FluidSolver.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Fluid\FluidSolver.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Geometry.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\HalfEdgeMesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\HalfEdgeMesh.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Mesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Mesh.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SimpleMesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SimpleMesh.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\LineStrip.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\LineStrip.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Bbox.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\CSG.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Cube.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Cube.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Implicit.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Implicit.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\ImplicitGradientField.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\ImplicitMesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\ImplicitMesh.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\ImplicitValueField.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Quadric.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Quadric.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SignedDistanceSphere.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SignedDistanceSphere.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Sphere.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\Sphere.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SphereFractal.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Geometry\SphereFractal.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\FrameMain.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\FrameMain.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLAxis.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLAxis.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLCamera.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLGridPlane.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLGridPlane.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLObject.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLObject.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLViewer.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GLViewer.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GUI.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\GUI.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\ScalarCutPlane.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\ScalarCutPlane.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\VectorCutPlane.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\VectorCutPlane.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\FluidVoxelCutPlane.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\GUI\FluidVoxelCutPlane.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSet.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSet.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSetGrid.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSetGrid.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSetOperator.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\LevelSetOperator.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorAdvect.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorDilateErode.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorMeanCurvatureFlow.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorMorph.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Levelset\OperatorReinitialize.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\ConjugateGradient.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\ConstantVectorField.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\Function3D.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\TrilinearInterpolator.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\TrilinearInterpolator.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\Volume.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Math\VortexVectorField.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\AdaptiveLoopSubdivisionMesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\AdaptiveLoopSubdivisionMesh.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\LoopSubdivisionMesh.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\LoopSubdivisionMesh.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\StrangeSubdivisionMesh.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\Subdivision.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\UniformCubicSpline.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\UniformCubicSpline.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\UniformCubicSplineSubdivisionCurve.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Subdivision\UniformCubicSplineSubdivisionCurve.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\BitMask3D.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\BlackWhiteColorMap.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\BlackWhiteColorMap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ColorMap.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ColorMap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ColorMapFactory.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ColorMapFactory.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GLObjectPlayback.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GLObjectPlayback.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GrayColorMap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GrayColorMap.cpp" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GreenRedColorMap.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\GreenRedColorMap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Heap.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Heap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\HotColorMap.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\HotColorMap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\HSVColorMap.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\HSVColorMap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\IsoContourColorMap.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\IsoContourColorMap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\JetColorMap.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\JetColorMap.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\MarchingCubes.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\MarchingCubes.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\MarchingCubesTable.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ObjIO.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\ObjIO.h" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Stopwatch.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\trackball.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\trackball.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Util.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Util.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Console.cpp" />
+    <ClInclude Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\Util\Console.h" />
+    <ClCompile Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\ZERO_CHECK.vcxproj">
+      <Project>{571A7E90-B4D8-3EDA-B8FB-F1D7D00A4D8F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MeckBook\Documents\!TNM079\TNM079-Labs\CMakeFiles\f4919d2b1b647f91ca864b9e86cd1bce\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{431840D7-86C0-3066-9820-D4C7A11A49CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

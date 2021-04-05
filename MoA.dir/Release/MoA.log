@@ -1,0 +1,63 @@
+﻿  Building Custom Rule C:/Users/MeckBook/Documents/!TNM079/Labs/TNM079-Labs/CMakeLists.txt
+  DecimationMesh.cpp
+  QuadricDecimationMesh.cpp
+  SimpleDecimationMesh.cpp
+  FluidSolver.cpp
+  HalfEdgeMesh.cpp
+  Mesh.cpp
+  SimpleMesh.cpp
+  LineStrip.cpp
+  Cube.cpp
+  Implicit.cpp
+C:\Users\MeckBook\Documents\!TNM079\Labs\TNM079-Labs\Geometry\Implicit.cpp(120,19): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  ImplicitMesh.cpp
+  Quadric.cpp
+  SignedDistanceSphere.cpp
+  Sphere.cpp
+  SphereFractal.cpp
+  FrameMain.cpp
+  GLAxis.cpp
+  GLGridPlane.cpp
+  GLObject.cpp
+  GLViewer.cpp
+  Generating Code...
+  Compiling...
+  GUI.cpp
+  ScalarCutPlane.cpp
+  VectorCutPlane.cpp
+  FluidVoxelCutPlane.cpp
+  LevelSet.cpp
+C:\Users\MeckBook\Documents\!TNM079\Labs\TNM079-Labs\Levelset\LevelSet.cpp(143,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\MeckBook\Documents\!TNM079\Labs\TNM079-Labs\Levelset\LevelSet.cpp(144,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\MeckBook\Documents\!TNM079\Labs\TNM079-Labs\Levelset\LevelSet.cpp(145,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\MeckBook\Documents\!TNM079\Labs\TNM079-Labs\Levelset\LevelSet.cpp(163,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\MeckBook\Documents\!TNM079\Labs\TNM079-Labs\Levelset\LevelSet.cpp(164,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\MeckBook\Documents\!TNM079\Labs\TNM079-Labs\Levelset\LevelSet.cpp(165,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LevelSetGrid.cpp
+  LevelSetOperator.cpp
+  TrilinearInterpolator.cpp
+  AdaptiveLoopSubdivisionMesh.cpp
+  LoopSubdivisionMesh.cpp
+  UniformCubicSpline.cpp
+  UniformCubicSplineSubdivisionCurve.cpp
+  BlackWhiteColorMap.cpp
+  ColorMap.cpp
+  ColorMapFactory.cpp
+  GLObjectPlayback.cpp
+  GrayColorMap.cpp
+  GreenRedColorMap.cpp
+  Heap.cpp
+  HotColorMap.cpp
+  Generating Code...
+  Compiling...
+  HSVColorMap.cpp
+  IsoContourColorMap.cpp
+  JetColorMap.cpp
+  MarchingCubes.cpp
+  ObjIO.cpp
+  trackball.cpp
+  Util.cpp
+  Console.cpp
+  main.cpp
+  Generating Code...
+  MoA.vcxproj -> C:\Users\MeckBook\Documents\!TNM079\Labs\TNM079-Labs\bin\Release\MoA.exe

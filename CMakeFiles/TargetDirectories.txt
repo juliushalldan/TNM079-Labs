@@ -1,0 +1,3 @@
+C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeFiles/MoA.dir
+C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeFiles/ALL_BUILD.dir
+C:/Users/MeckBook/Documents/!TNM079/TNM079-Labs/CMakeFiles/ZERO_CHECK.dir
